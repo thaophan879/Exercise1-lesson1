@@ -8,6 +8,7 @@ test('has title', async ({ page }) => {
 });
 
 test('get started link', async ({ page }) => {
+
   await page.goto('https://www.guru99.com/');
 
   // Click the get started link.
